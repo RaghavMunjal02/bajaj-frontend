@@ -4,7 +4,6 @@
   margin: 20px 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  padding: 10px;
   transition: 0.7s all linear;
   cursor: pointer;
 }
@@ -28,12 +27,16 @@
   color: gray;
 }
 .user-link {
-  width: 100%;
+  display: block;
+  margin: 0 auto;
   padding: 10px 0;
+  width: 50%;
   border: none;
   outline: none;
+  background-color: black;
+  border-radius: 5px;
 }
 .user-link a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
