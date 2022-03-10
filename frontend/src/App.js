@@ -17,11 +17,14 @@ const App = () => {
   }, []);
 
   return (
-    <div className="App">
-      {users.map((user) => (
-        <UserCard user={user} key={user.id} />
-      ))}
-    </div>
+    <>
+      <h1 className="title">~ Users ~</h1>
+      <div className="App">
+        {users.map((user) => (
+          <UserCard user={user} key={user.id} />
+        ))}
+      </div>
+    </>
   );
 };
 

@@ -3,7 +3,9 @@ import "./UserCard.css";
 const UserCard = ({ user }) => {
   return (
     <div className="user-card">
-      <img src={user.avatar_url} alt="avatar" className="user-image" />
+      <div className="user-image">
+        <img src={user.avatar_url} alt="avatar" />
+      </div>
       <p className="user-name">{user.login}</p>
       <p className="user-type">{user.type}</p>
       <button className="user-link">
